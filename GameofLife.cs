@@ -201,7 +201,6 @@ public class GameofLife : Node2D
 			
 			_timerLabel.Text = "                Speed\n0s                                    2s";
 			_alivePercentLabel.Text = "Starting Cell Alive Percentage: ";
-			//_alivePercentSpinBox.Value = 33f;
 			
 			setButtonProperties(_pausePlayButton, _pauseIcon, 0.115f, 0.115f, 10);
 			setButtonProperties(_resetButton, _resetIcon, 0.105f, 0.105f, 10);
