@@ -1,0 +1,9 @@
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\bin\ExportDebug\Game-of-life-3.6.dll
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\bin\ExportDebug\Game-of-life-3.6.pdb
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.csproj.AssemblyReference.cache
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.AssemblyInfoInputs.cache
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.AssemblyInfo.cs
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.csproj.CoreCompileInputs.cache
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.dll
+C:\Users\scott\Documents\Godot\game-of-life-3.6\.mono\temp\obj\ExportDebug\Game-of-life-3.6.pdb
