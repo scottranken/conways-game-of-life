@@ -284,9 +284,6 @@ public class GameofLife : Node2D
 	
 	private void _on_ResetButton_pressed()
 	{
-		generation 	= 0;
-		aliveCells 	= 0;
-		
 		resetGrid();
 		resetTimer();
 	}
@@ -370,6 +367,7 @@ public class GameofLife : Node2D
 				if (getRandomFloat(1f, 100f, random) <= alivePercent)
 				{
 					cells[x,y] = new Cell(this, x*cellX+1f, y*cellY+1f, cellX-2f, cellY-2f, cellColourR, cellColourG, cellColourB, true);
+					aliveCells++;
 				}
 				else
 				{
@@ -433,6 +431,9 @@ public class GameofLife : Node2D
 	
 	private void resetGrid()
 	{
+		aliveCells = 0;
+		generation = 0;
+		
 		for (int x = 0; x < gridX; x++)
 		{
 			for (int y = 0; y < gridY; y++)
@@ -441,6 +442,7 @@ public class GameofLife : Node2D
 				{
 					cells[x,y].setCellAliveState(true);
 					cells[x,y].setCellNextAliveState(true);
+					aliveCells++;
 				}
 				else
 				{
